@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="shortcut icon" href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png">
+    <script src="https://kit.fontawesome.com/ed77cd8eb5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img width="40" v height="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwXk_-D12tOW-DeklQNYPqGc8f8tUbmzIZA&s" />
+        <div>
+            <i class="fa-solid fa-house icon"></i>
+            <input type="text" class="input" placeholder="What do you want to play?" />
+        </div>
+        <div>
+            <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2Fsearch"><button class="btn1">Sign up</button></a>
+            <a href="https://accounts.spotify.com/en-GB/login?continue=https%3A%2F%2Fopen.spotify.com%2Fsearch"><button class="btn2">Log in</button></a>
+        </div>
+    </nav>
+
+    <div style="display:flex;">
+        <div class="sidebar">
+            <div class="lib">
+                <div style="display:flex;">
+                    <i class="fa-solid fa-music icon" style="background-color:transparent; font-size:20px; color: #d7dbd8;"></i>
+                    <h1 class="heading">Your Library</h1>
+                </div>
+                <span class="spanadd">+</span>
+            </div>
+            <div class="scrollcreate">
+                <div class="createcard">
+                    <h1 class="headingCreate">Create your first playlist</h1>
+                    <h2 class="headingeasy">It’s easy, we’ll help you</h2>
+                    <button class="createbutton">Create playlist</button>
+                </div>
+                <div class="createcard">
+                    <h1 class="headingCreate">Let’s find some podcasts to follow</h1>
+                    <h2 class="headingeasy">We’ll keep you updated on new episodes</h2>
+                    <button class="createbutton">Create playlist</button>
+                </div>
+            </div>
+            <div style="footerone">
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a></span>
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/safetyandprivacy">Safety & Privacy Center</a></span>
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a></span>
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></span>
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a></span>
+                <span><a class="footerhead" href="https://www.spotify.com/in-en/accessibility">Accessibility</a></span>
+                <h1><a class="cookies" target="_blank" href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a></h1>
+                <button class="lang"><i class="fa-solid fa-globe" style="color:white; padding-right:10px; font-size:10px;"></i>English</button>
+            </div>
+        </div>
+        <div class="otherside">
+            <div>
+                <div class="artist-container">
+                    <h1 class="artistheading">Popular Artists</h1>
+                    <h3 class="showall">Show All</h3>
+                </div>
+                <div style="display:flex;">
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Pritam</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Sachin-Jigar</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">A.R. Rahman</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Arijit Singh</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Anirudh Ravichander</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon" src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Atif Aslam</h2>
+                        <h3 class="artist">Artist</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="artist-container">
+                    <h1 class="artistheading">Popular albums and singles</h1>
+                    <h3 class="showall">Show All</h3>
+                </div>
+                <div style="display:flex;">
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Aashiqui 2</h2>
+                        <h3 class="artist1">Mithoon, Ankit Tiwari, Jeet Gannguli</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">GLORY</h2>
+                        <h3 class="artist1">Yo Yo Honey Singh</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Jo Tum Mere Ho</h2>
+                        <h3 class="artist1">Anuv Jain</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Making Memories</h2>
+                        <h3 class="artist1">Karan Aujla, Ikky</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e027c1549cd0651cf6d18cbea00" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Patandar</h2>
+                        <h3 class="artist1">Arjan Dhillon</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h2 class="name">Yeh Jawaani Hai Deewani</h2>
+                        <h3 class="artist1">Pritam</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="artist-container">
+                    <h1 class="artistheading">Popular radio</h1>
+                    <h3 class="showall">Show All</h3>
+                </div>
+                <div style="display:flex;">
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With Sachin-Jigar, Amit Trivedi, Mithoo...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With Karan Aujla, AP Dhillon, Shubh and...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3gBKY0y3dFFVRqicLnVZYz/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With Abhijeet, Jatin-Lalit, Vinod Rathod...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/3m49WVMU4zCkaVEKb8kFW7/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With K. J. Yesudas, Swarnalatha, Uma...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4K6blSRoklNdpw4mzLxwfn/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With Abhijeet, Asha Bhosle, Jatin-Lalit an...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">With Mohit Chauhan, Armaan Malik, Atif...</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="artist-container">
+                    <h1 class="artistheading">Featured Charts</h1>
+                </div>
+                <div style="display:flex;">
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your weekly update of the most played...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your weekly update of the most played...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your daily update of the most played...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your daily update of the most played...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your daily update of the most viral tracks...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Your daily update of the most viral tracks...</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="artist-container">
+                    <h1 class="artistheading">Playlists from our Editors</h1>
+                    <h3 class="showall">Show All</h3>
+                </div>
+                <div style="display:flex;">
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f00000002d2c23cff8e4056e5c891216d" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Dance to the rhythm and move your feet!</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f000000029bbc38dae393e154d84dae40" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">The ultimate rock party playlist!</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f000000021cb757ccbe7a4f7e0e67fe4a" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">The biggest party hits of the 2010s. Cover:...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f00000002d56955aeca2541ee8d9cd026" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">Classics like In Da Club</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f00000002abf84d549f87ed110df1b750" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">The biggest party hits of the 2000s. Cover:...</h3>
+                    </div>
+                    <div class="cardartist">
+                        <img class="artisticon1" src="https://i.scdn.co/image/ab67706f00000002be86b0e17ba01f2160355952" />
+                        <i class="fa-solid fa-play btn3"></i>
+                        <h3 class="artist">90's & 00's party jams with Aaliyah, Justin...</h3>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="lastfooter">
+                <div>
+                    <h2 class="headingCreate1">Company</h2>
+                    <ul class="listvalue">
+                        <li><a class="last" href="https://www.spotify.com/in-en/about-us/contact/">About</a></li>
+                        <li><a class="last" href="https://www.lifeatspotify.com/">Jobs</a></li>
+                        <li><a class="last" href="https://newsroom.spotify.com/">For the Record</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="headingCreate1">Communities</h2>
+                    <ul class="listvalue">
+                        <li><a class="last" href="https://artists.spotify.com/home">For Artists</a></li>
+                        <li><a class="last" href="https://developer.spotify.com/">Developers</a></li>
+                        <li><a class="last" href="https://ads.spotify.com/en-IN/">Advertising</a></li>
+                        <li><a class="last" href="https://investors.spotify.com/home/default.aspx">Investors</a></li>
+                        <li><a class="last" href="https://spotifyforvendors.com/">Vendors</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="headingCreate1">Useful links</h2>
+                    <ul class="listvalue">
+                        <li><a class="last" href="https://support.spotify.com/in-en/">Support</a></li>
+                        <li><a class="last" href="https://www.spotify.com/in-en/free/">Free Mobile App</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="headingCreate1">Spotify Plans</h2>
+                    <ul class="listvalue">
+                        <li><a class="last" href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">Premium Individual</a></li>
+                        <li><a class="last" href="https://www.spotify.com/in-en/duo/#ref=spotifycom_footer_premium_duo">Premium Duo</a></li>
+                        <li><a class="last" href="https://www.spotify.com/in-en/family/#ref=spotifycom_footer_premium_family">Premium Family</a></li>
+                        <li><a class="last" href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">Premium Student</a></li>
+                        <li><a class="last" href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">Spotify Free</a></li>
+                    </ul>
+                </div>
+                <a href="https://www.instagram.com/spotify/" target="_blank"><i class="fa-brands fa-instagram icon lasticon"></i></a>
+                <a href="https://x.com/spotify" target="_blank"><i class="fa-brands fa-twitter icon lasticon"></i></a>
+                <a href="https://www.facebook.com/Spotify" target="_blank"><i class="fa-brands fa-facebook icon lasticon"></i></a>
+            </footer>
+            <hr class="line">
+            <div class="final">
+                <i class="fa-regular fa-copyright copy"></i><span>2024 Spotify AB</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <a class="sign-up" style="text-decoration: none;" href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">
+            <div>
+                <h1 class="preview">Preview of Spotify</h1>
+                <p class="nocard">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+            <button class="sign-up-button">Sign up for free</button>
+        </a>
+    </div>
+
+</body>
+
+</html>
